@@ -1,11 +1,11 @@
 :root{
-  --bg: #fdebd0;
-  --sidebar: #097969;
-  --sidebarText: #fdebd0;
-  --title: #097969;
-  --subTitle: #6e9296;
-  --name: #90bfc5;
-  --black: #000000;
+  --bg: #f8fbff;
+  --sidebar: #13294B;
+  --sidebarText: #ffffff;
+  --title: #13294B;
+  --subTitle: #4B9CD3;
+  --name: #A7D0F2;
+  --black: #1f1f1f;
 }
 
 * { box-sizing: border-box; }
