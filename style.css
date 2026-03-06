@@ -31,6 +31,7 @@ body{
   width: 250px;
   background: var(--sidebar);
   padding: 40px 20px;
+  overflow-y: auto;
 }
 
 .profile{
@@ -49,49 +50,45 @@ body{
 }
 
 .name{
-  font-weight: 300;
-  font-size: 20px;
+  font-weight:300;
+  font-size:22px;
   color: var(--name);
-  letter-spacing: 0.8px;
+  letter-spacing:1.5px;
 }
 
-.contact{
+.email{
   text-align:center;
-  margin-bottom: 28px;
+  margin-top:8px;
+  font-size:14px;
 }
 
-.contact a{
+.email a{
   color: var(--sidebarText);
-  font-weight: 300;
-  font-size: 14px;
-  letter-spacing: 0.4px;
-  border-bottom: none;
-  opacity: 0.9;
+  border-bottom:none;
+  opacity:0.9;
 }
 
-.contact a:hover{
-  opacity: 0.7;
+.email a:hover{
+  opacity:0.7;
 }
 
-.social{
+.social-icons{
+  margin-top:16px;
   display:flex;
-  flex-direction:column;
-  gap:10px;
-  align-items:center;
-  margin-bottom: 34px;
+  justify-content:center;
+  gap:20px;
 }
 
-.social a{
+.social-icons a{
   color: var(--sidebarText);
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 0.8px;
-  border-bottom: none;
-  opacity: 0.95;
+  font-size:20px;
+  border-bottom:none;
+  transition:0.2s;
 }
 
-.social a:hover{
-  opacity: 0.7;
+.social-icons a:hover{
+  transform:scale(1.15);
+  opacity:0.8;
 }
 
 .nav{
